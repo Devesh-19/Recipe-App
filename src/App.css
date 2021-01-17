@@ -11,8 +11,6 @@
 		#dae2f8,
 		#d6a4a4
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-	text-align: center;
 }
 
 .search-form {
@@ -41,4 +39,10 @@
 
 .search-btn:focus {
 	outline: none;
+}
+
+.recipes {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
