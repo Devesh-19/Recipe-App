@@ -1,3 +1,44 @@
 .App {
+	min-height: 100vh;
+	background: #dae2f8; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#dae2f8,
+		#d6a4a4
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#dae2f8,
+		#d6a4a4
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	text-align: center;
+}
+
+.search-form {
+	min-height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search-bar {
+	width: 50%;
+	border: 0;
+	padding: 10px;
+}
+
+.search-bar:focus {
+	outline: none;
+}
+
+.search-btn {
+	background: lightcoral;
+	border: none;
+	padding: 10px 20px;
+	color: white;
+}
+
+.search-btn:focus {
+	outline: none;
 }
